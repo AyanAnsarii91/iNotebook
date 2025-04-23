@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="description" content="A simple and interactive Notes App to organize your tasks and ideas." />
+    <meta name="keywords" content="notes, app, tasks, organizer, productivity" />
+    <meta name="author" content="Ayan Ansari" />
+    <meta name="robots" content="index, follow" />
+    <meta property="og:title" content="Notes App" />
+    <meta property="og:description" content="A simple and interactive Notes App to organize your tasks and ideas." />
+    <meta property="og:image" content="images/notes-app-preview.png" />
+    <meta property="og:url" content="https://yourwebsite.com/notes-app" />
+    <meta property="og:type" content="website" />
+    <title>Notes App</title>
+    <link rel="stylesheet" href="css/style.css">
+    <!-- Favicon -->
+    <link rel="icon" href="images/favicon.ico" type="image/x-icon">
+    <!-- Google Fonts for better typography -->
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&display=swap" rel="stylesheet">
+</head>
+
+<body>
+    <!-- Navbar -->
+    <nav class="navbar">
+        <div class="nav-container">
+            <div class="logo">NotesApp</div>
+            <ul class="nav-links">
+                <li><a href="index.html">Home</a></li>
+                <li><a href="/about.html">About</a></li>
+                <li><a href="/contact.html">Contact</a></li>
+            </ul>
+        </div>
+    </nav>
+
+    <div class="container">
+        <!-- Header Section -->
+        <header>
+            <div class="header">
+                <h1>Notes App</h1>
+                <p>Organize your thoughts and tasks easily</p>
+            </div>
+        </header>
+
+        <!-- Add Note Section -->
+        <section class="add-note">
+            <input type="text" class="note-input" placeholder="Add a new note" id="noteInput" />
+            <button class="add-btn" id="addBtn">Add Note</button>
+        </section>
+
+        <!-- Notes List -->
+        <section class="notes-section">
+            <ul class="notes-list" id="notesList"></ul>
+        </section>
+    </div>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="footer-content">
+            <p>&copy; 2025 Notes App by Ayan Ansari. All rights reserved.</p>
+        </div>
+    </footer>
+
+    <script src="Javascript/index.js"></script>
+    <!-- Firebase SDK would be added here when implementing cloud sync -->
+</body>
+
+</html>
